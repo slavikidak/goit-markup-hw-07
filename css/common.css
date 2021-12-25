@@ -1,0 +1,84 @@
+/* Основной цвет: #757575 */
+
+/* Дополнительный цвет: #212121 */
+
+/* Выделение синий: #2196F3 */
+
+/* Текст белый: #FFFFFF */
+
+/* Основной цвет секции: #FFFFFF */
+
+/* Дополнительный цвет секции: #2f303a */
+
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --button-inactive: #f5f4fa;
+  --third-section: #f5f4fa;
+  --secondary-background: #2f303a;
+  --main-background: #ffffff;
+  --white-color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  color: var(--main-text-color);
+  background-color: var(--main-background);
+  letter-spacing: 0.03em;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ссылки */
+
+.link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+/* Список */
+
+.list {
+  list-style: none;
+}
+
+/* Заголовки h2 h3 секций */
+
+.section .title,
+.section h3 {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* outline: red dotted; */
+}
+
+img {
+  display: block;
+}
