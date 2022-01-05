@@ -33,14 +33,12 @@
   &__icon--white {
     fill: var(--white-color);
   }
-}
-
-.social-links__link:hover .social-links__icon,
-.social-links__link:focus .social-links__icon {
-  fill: var(--white-color);
-}
-
-.social-links__link:hover:hover,
-.social-links__link:hover:focus {
-  background-color: var(--accent-color);
+  &__link:hover .social-links__icon,
+  %__link:focus .social-links__icon {
+    fill: var(--white-color);
+  }
+  &__link:hover,
+  &__link:focus {
+    background-color: var(--accent-color);
+  }
 }

@@ -12,10 +12,9 @@
   margin-top: 30px;
   padding: 10px 32px;
   transition: background-color var(--retiming);
-}
-
-.button:hover,
-.button:focus {
-  background-color: #188ce8;
-  color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    color: #ffffff;
+  }
 }
